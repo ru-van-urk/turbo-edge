@@ -1,0 +1,15 @@
+{
+  "name": "mymonorepo",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "packageManager": "yarn@1.22.19",
+  "scripts": {
+    "dev": "turbo dev"
+  },
+  "dependencies": {
+    "turbo": "^1.10.13"
+  }
+}
